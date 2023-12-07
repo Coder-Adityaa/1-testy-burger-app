@@ -1,0 +1,531 @@
+/* Home Hero Section - 1 */
+
+.hero-section {
+    position: relative;
+    background: url(../Assets/hero/hero-1.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 170px 0 90px;
+}
+
+.hero-section .price-badge {
+    background: url(../Assets/hero/price-badge-yellow.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    width: 180px;
+    height: 176px;
+    text-align: center;
+}
+
+.hero-section .badge-text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hero-section .badge-text .h4-xs {
+    font-size: 1.875rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.hero-section .badge-text .h3-lg {
+    font-size: 2.875rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.hero-section .hero-text h1 {
+    font-family: var(--lilita-font);
+    font-size: 7rem;
+    line-height: 1;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+
+.hero-section .hero-text h2 {
+    font-family: var(--lilita-font);
+    font-size: 2.5rem;
+    line-height: 1;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.hero-section .hero-text p {
+    padding: 0 5%;
+}
+
+
+/* Home About Section */
+.about-section {
+    padding-top: 80px;
+    padding-bottom: 300px;
+    background: url(../Assets/about/about-1.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.about-section h2 {
+    font-size: 3.5rem;
+}
+
+.about-section p {
+    color: var(--grey);
+    padding: 20px 30px;
+    font-size: 19px;
+}
+
+.about-wrapper {
+    background: var(--yellow);
+    padding: 70px 0 30px;
+}
+
+.about-box .about-icon img {
+    max-width: 25%;
+}
+
+.about-box h4 {
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    margin: 30px 0 20px;
+}
+
+.about-box p {
+    padding: 0 20px;
+}
+
+/* Home Section Menu Cards 3.0 */
+.menu-section {
+    padding: 100px 0;
+}
+
+.menu-section .card-img-Top {
+    transition: all 500ms ease-in-out;
+}
+
+.menu-section h2 {
+    color: var(--light-red);
+    font-size: 3.5rem;
+}
+
+.menu-section .para {
+    padding: 10px 100px;
+    font-size: 19px;
+}
+
+.menu-section .item-rating i {
+    color: var(--yellow);
+    padding: 5px;
+}
+
+.menu-section .wishlist i {
+    color: var(--grey);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu-section .wishlist i:hover {
+    color: var(--light-red);
+}
+
+.menu-section .card-title {
+    font-family: var(--oswald-font);
+    font-weight: 600;
+    margin: 5px 0 10px;
+}
+
+.menu-section .card-text {
+    font-size: 15px;
+    color: var(--grey);
+}
+
+.menu-section .menu-price {
+    background: var(--bg-coffee);
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 4px;
+}
+
+.menu-section .menu-price h5 {
+    font-size: 1rem;
+    color: var(--light-white);
+}
+
+.menu-section .add-to-cart a {
+    display: inline-block;
+    background: var(--yellow);
+    padding: 8px 14px;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+    border-radius: 4px;
+    opacity: 0;
+    transform: translateY(100px);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+.menu-section .card {
+    box-shadow: 8px 8px 10px rgb(0, 0, 0, 0.2);
+}
+
+
+.menu-section .card:hover .card-img-Top {
+    transform: scale(1.1);
+}
+
+.menu-section .card:hover .add-to-cart a {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.menu-section .ads-box {
+    padding: 80px 35px 50px;
+    border-radius: 6px;
+}
+
+.menu-section .ads-img1 {
+    background: url(../Assets/menu/ads-1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.menu-section .ads-img2 {
+    background: url(../Assets/menu/ads-2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.menu-section .ads-box h4 {
+    font-size: 2.25rem;
+    font-weight: 300;
+    color: var(--brown);
+}
+
+.menu-section .ads-box h5 {
+    font-size: 2.375rem;
+    color: var(--brown);
+}
+
+.menu-section .ads-box a {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+
+/* Home Promotion Section */
+.promotion-section {
+    padding: 60px 0;
+    background: var(--light-grey);
+}
+
+.promotion-section h2 {
+    font-size: 3.25rem;
+    margin-bottom: 25px;
+}
+
+.promotion-section p {
+    font-size: 1.125rem;
+}
+
+.promotion-section ul {
+    padding-left: 15px;
+}
+
+/* Home Paralax-Section-Scroll */
+.paralax-section-scroll {
+    background: url(../Assets/parallax/bg.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+}
+
+
+/* Home Shop Section */
+.shop-section {
+    padding: 100px 0;
+    background: var(--yellow);
+}
+
+.shop-section h4 {
+    font-size: 2.375rem;
+    color: var(--bg-coffee);
+    font-weight: 400;
+}
+
+.shop-section h2 {
+    font-size: 4.5rem;
+    color: var(--bg-coffee);
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.shop-section p {
+    font-size: 1.125rem;
+    color: var(--bg-coffee);
+    padding-right: 10%;
+    margin-bottom: 40px;
+}
+
+.shop-section .store {
+    max-width: 40%;
+}
+
+.brand-section {
+    padding: 70px 0 40px;
+    background: var(--light-grey);
+    overflow: hidden;
+}
+
+.brand-section .brand-img {
+    width: 180px;
+    height: auto;
+}
+
+.carousel.slide .carousel-inner {
+    overflow: unset;
+}
+
+.carousel.slide .carousel-inner .carousel-caption {
+    position: relative;
+    right: unset;
+    left: unset;
+}
+
+.blog-section {
+    padding: 80px 0 50px;
+    background: url(../Assets/blog/bg-reviews.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.blog-section .user-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+
+.blog-section .carousel.slide .carousel-inner .carousel-caption p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 1.45;
+    padding: 0 12%;
+    margin-bottom: 25px;
+}
+
+.blog-section .carousel.slide .carousel-inner .carousel-caption .item-rating i {
+    color: var(--yellow);
+    margin-right: 5px;
+}
+
+.blog-section .carousel.slide .carousel-inner .carousel-caption h5 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.blog-section .carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: var(--yellow);
+}
+
+/* Home Contact Section */
+.contact-section {
+    background: url(../Assets/footer/banner-1.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.contact-section h4 {
+    font-size: 2.375rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.contact-section h2 {
+    font-size: 4.5rem;
+    margin-bottom: 25px;
+}
+
+.contact-section p {
+    width: 70%;
+    margin: 0 auto 30px;
+}
+
+.contact-section a {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+footer {
+    padding-top: 80px;
+}
+
+footer h5 {
+    color: var(--light-black);
+    line-height: 1;
+    margin-bottom: 25px;
+}
+
+footer p {
+    font-size: 1rem;
+    margin-bottom: 3px;
+}
+
+footer .calling {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--yellow);
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+footer .copy-right {
+    border-top: 1px solid var(--light-grey-2);
+    margin-top: 60px;
+    padding: 20px 0;
+}
+
+footer .copy-right ul li span {
+    color: var(--light-red);
+    font-weight: 600;
+}
+
+footer .copy-right ul li {
+    font-size: 1rem;
+    padding: 0 10px;
+    position: relative;
+}
+
+footer .copy-right ul li::after {
+    content: "|";
+    padding-left: 11px;
+    position: absolute;
+    top: -1px;
+    right: -10px;
+}
+
+footer .copy-right ul li:last-child::after {
+    content: "";
+}
+
+/* Scroll Top */
+.scroll-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99;
+    cursor: pointer;
+    width: 2.7rem;
+    height: 2.7rem;
+    line-height: 3rem;
+    text-align: center;
+    background-color: var(--light-red);
+    border-radius: 10%;
+}
+
+.scroll-top i {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+/* Media Quries Home Hero */
+
+@media (max-width: 1200px) {
+
+    /* Home Promotion section */
+    .promotion-section h2 {
+        font-size: 2.25rem;
+    }
+
+    /* Home Contact  */
+    .contact-section h2 {
+        font-size: 3.5rem;
+    }
+
+    .contact-section p {
+        width: 90%;
+    }
+}
+
+@media (max-width: 992px) {
+
+    /* Home About 2.0 */
+    .about-section h2 {
+        font-size: 2.5rem;
+    }
+
+    .about-section p {
+        padding: 20px 0;
+    }
+
+    .about-box p {
+        padding: 0;
+    }
+
+    /* Paralax */
+    .paralax-section-scroll {
+        background-attachment: scroll;
+        height: 500px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Home Hero Section 1.0 */
+
+    .hero-section .hero-text h1 {
+        font-size: 5.5rem;
+    }
+
+    /* Home Card Menu */
+    .menu-section h2 {
+        font-size: 2.8rem;
+    }
+
+    .menu-section .para {
+        padding: 10px 0;
+    }
+
+    /* Home Section Shop */
+    .shop-section h4 {
+        font-size: 1.8rem;
+    }
+
+    .shop-section h2 {
+        font-size: 3.75rem;
+    }
+
+    .brand-section {
+        padding: 50px 0 10px;
+    }
+
+    .brand-section .brand-img {
+        width: 70px;
+    }
+
+    /* Home Blog */
+    .blog-section .carousel.slide .carousel-inner .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    /* Home Contact */
+    .contact-section h2 {
+        font-size: 3rem;
+    }
+}
